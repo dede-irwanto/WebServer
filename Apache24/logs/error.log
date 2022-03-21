@@ -587,3 +587,45 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 [Mon Mar 14 21:48:31.337140 2022] [mpm_winnt:notice] [pid 6748:tid 776] AH00354: Child: Starting 64 worker threads.
 [Wed Mar 16 19:26:36.349146 2022] [authz_core:error] [pid 6748:tid 1304] [client 127.0.0.1:59690] AH01630: client denied by server configuration: C:/Webserver/www/aplikasi-antrian/antrian-api/app/, referer: http://localhost:8080/aplikasi-antrian/
 [Wed Mar 16 19:26:36.373141 2022] [authz_core:error] [pid 6748:tid 1304] [client 127.0.0.1:59690] AH01630: client denied by server configuration: C:/Webserver/www/aplikasi-antrian/antrian-api/writable/, referer: http://localhost:8080/aplikasi-antrian/
+[Fri Mar 18 18:36:57.277729 2022] [authz_core:error] [pid 6748:tid 1304] [client 127.0.0.1:62471] AH01630: client denied by server configuration: C:/Webserver/www/aplikasi-antrian/antrian-api/app/, referer: http://localhost:8080/aplikasi-antrian/
+[Fri Mar 18 18:36:57.281735 2022] [authz_core:error] [pid 6748:tid 1304] [client 127.0.0.1:62471] AH01630: client denied by server configuration: C:/Webserver/www/aplikasi-antrian/antrian-api/writable/, referer: http://localhost:8080/aplikasi-antrian/
+[Tue Mar 22 05:22:47.656350 2022] [mpm_winnt:notice] [pid 4076:tid 824] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 22 05:22:49.707871 2022] [mpm_winnt:notice] [pid 6748:tid 776] AH00364: Child: All worker threads have exited.
+[Tue Mar 22 05:22:49.911515 2022] [mpm_winnt:notice] [pid 4076:tid 824] AH00430: Parent: Child process 6748 exited successfully.
+AH00112: Warning: DocumentRoot [C:/Webserver/www/aplikasi-antrian/antrian-api/public] does not exist
+[Tue Mar 22 05:22:52.055071 2022] [mpm_winnt:notice] [pid 10652:tid 836] AH00455: Apache/2.4.51 (Win64) PHP/8.1.0 configured -- resuming normal operations
+[Tue Mar 22 05:22:52.055071 2022] [mpm_winnt:notice] [pid 10652:tid 836] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Tue Mar 22 05:22:52.055071 2022] [core:notice] [pid 10652:tid 836] AH00094: Command line: 'C:\\Webserver\\Apache24\\bin\\httpd.exe -d C:/Webserver/Apache24'
+[Tue Mar 22 05:22:52.074222 2022] [mpm_winnt:notice] [pid 10652:tid 836] AH00418: Parent: Created child process 15808
+AH00112: Warning: DocumentRoot [C:/Webserver/www/aplikasi-antrian/antrian-api/public] does not exist
+AH00112: Warning: DocumentRoot [C:/Webserver/www/aplikasi-antrian/antrian-api/public] does not exist
+[Tue Mar 22 05:22:52.572433 2022] [mpm_winnt:notice] [pid 15808:tid 812] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 22 05:23:27.266937 2022] [authz_core:error] [pid 15808:tid 1296] [client 10.71.1.14:53304] AH01630: client denied by server configuration: C:/Webserver/www/aplikasi-antrian/antrian-api-dev/app/, referer: http://antrian-api.dukcapil.bolmongkab.go.id:8080/aplikasi-antrian/
+[Tue Mar 22 05:23:27.282555 2022] [authz_core:error] [pid 15808:tid 1296] [client 10.71.1.14:53304] AH01630: client denied by server configuration: C:/Webserver/www/aplikasi-antrian/antrian-api-dev/writable/, referer: http://antrian-api.dukcapil.bolmongkab.go.id:8080/aplikasi-antrian/
+[Tue Mar 22 05:32:18.930008 2022] [mpm_winnt:notice] [pid 10652:tid 836] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 22 05:32:20.953490 2022] [mpm_winnt:notice] [pid 15808:tid 812] AH00364: Child: All worker threads have exited.
+[Tue Mar 22 05:32:20.984726 2022] [mpm_winnt:notice] [pid 10652:tid 836] AH00430: Parent: Child process 15808 exited successfully.
+AH00112: Warning: DocumentRoot [C:/Webserver/www/aplikasi-antrian/antrian-api/public] does not exist
+[Tue Mar 22 05:32:22.457800 2022] [mpm_winnt:notice] [pid 16360:tid 864] AH00455: Apache/2.4.51 (Win64) PHP/8.1.0 configured -- resuming normal operations
+[Tue Mar 22 05:32:22.457800 2022] [mpm_winnt:notice] [pid 16360:tid 864] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Tue Mar 22 05:32:22.457800 2022] [core:notice] [pid 16360:tid 864] AH00094: Command line: 'C:\\Webserver\\Apache24\\bin\\httpd.exe -d C:/Webserver/Apache24'
+[Tue Mar 22 05:32:22.458823 2022] [mpm_winnt:notice] [pid 16360:tid 864] AH00418: Parent: Created child process 16972
+AH00112: Warning: DocumentRoot [C:/Webserver/www/aplikasi-antrian/antrian-api/public] does not exist
+AH00112: Warning: DocumentRoot [C:/Webserver/www/aplikasi-antrian/antrian-api/public] does not exist
+[Tue Mar 22 05:32:22.961050 2022] [mpm_winnt:notice] [pid 16972:tid 408] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 22 05:34:29.489261 2022] [mpm_winnt:notice] [pid 16360:tid 864] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 22 05:34:31.497414 2022] [mpm_winnt:notice] [pid 16972:tid 408] AH00364: Child: All worker threads have exited.
+[Tue Mar 22 05:34:31.513041 2022] [mpm_winnt:notice] [pid 16360:tid 864] AH00430: Parent: Child process 16972 exited successfully.
+[Tue Mar 22 05:34:33.004370 2022] [mpm_winnt:notice] [pid 13580:tid 980] AH00455: Apache/2.4.51 (Win64) PHP/8.1.0 configured -- resuming normal operations
+[Tue Mar 22 05:34:33.004370 2022] [mpm_winnt:notice] [pid 13580:tid 980] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Tue Mar 22 05:34:33.004370 2022] [core:notice] [pid 13580:tid 980] AH00094: Command line: 'C:\\Webserver\\Apache24\\bin\\httpd.exe -d C:/Webserver/Apache24'
+[Tue Mar 22 05:34:33.019991 2022] [mpm_winnt:notice] [pid 13580:tid 980] AH00418: Parent: Created child process 14368
+[Tue Mar 22 05:34:33.538040 2022] [mpm_winnt:notice] [pid 14368:tid 176] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 22 05:37:12.741154 2022] [mpm_winnt:notice] [pid 13580:tid 980] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 22 05:37:14.749967 2022] [mpm_winnt:notice] [pid 14368:tid 176] AH00364: Child: All worker threads have exited.
+[Tue Mar 22 05:37:14.848781 2022] [mpm_winnt:notice] [pid 13580:tid 980] AH00430: Parent: Child process 14368 exited successfully.
+[Tue Mar 22 05:37:16.239904 2022] [mpm_winnt:notice] [pid 18404:tid 544] AH00455: Apache/2.4.51 (Win64) PHP/8.1.0 configured -- resuming normal operations
+[Tue Mar 22 05:37:16.239904 2022] [mpm_winnt:notice] [pid 18404:tid 544] AH00456: Apache Lounge VS16 Server built: Oct  7 2021 16:27:02
+[Tue Mar 22 05:37:16.239904 2022] [core:notice] [pid 18404:tid 544] AH00094: Command line: 'C:\\Webserver\\Apache24\\bin\\httpd.exe -d C:/Webserver/Apache24'
+[Tue Mar 22 05:37:16.255940 2022] [mpm_winnt:notice] [pid 18404:tid 544] AH00418: Parent: Created child process 7348
+[Tue Mar 22 05:37:16.820638 2022] [mpm_winnt:notice] [pid 7348:tid 872] AH00354: Child: Starting 64 worker threads.
